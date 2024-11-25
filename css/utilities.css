@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+  
+:root{
+    --main-bg-color: brown;
+    --font1:"Dancing Script", cursive;
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 30vw;
+}
+.m-auto{
+    margin: auto;
+}
+.nav-right .btn{
+ padding-top:3px; 
+ padding:5px 20px;
+ border:2px solid grey;
+ border-radius: 4px;
+ font-family: var(--font1);
+ cursor:pointer;
+}
+.nav-right .btn:hover{
+    
+    color: white;
+    background: var(--main-bg-color);
+}
+.nav-right .form-input{
+    padding: 2px 6px;
+    margin-top: 4px;
+    font-size: 16px;
+    border: 2px solid gray;
+    margin:0 13px;
+    font-family: var(--font1);
+    cursor: pointer;
+    
+}
